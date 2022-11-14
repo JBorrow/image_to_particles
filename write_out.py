@@ -15,7 +15,7 @@ boxsize = IMAGE_SIZE * unyt.cm
 
 # Generate object. cosmo_units corresponds to default Gadget-oid units
 # of 10^10 Msun, Mpc, and km/s
-x = Writer(cosmo_units, boxsize, dimension=2)
+x = Writer(unyt.UnitSystem("cgs", "cm", "g", "s"), boxsize, dimension=2)
 
 # 32^3 particles.
 n_p = len(xs)
