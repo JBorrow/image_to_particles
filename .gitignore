@@ -9,3 +9,4 @@ swift
 *.mp4
 *parameters.yml
 swiftsim/*
+*.log
