@@ -1,0 +1,11 @@
+*.txt
+*.csv
+*.hdf5
+*.jpeg
+*.png
+*.jpg
+swift
+*.xmf
+*.mp4
+*parameters.yml
+swiftsim/*
